@@ -1,3 +1,4 @@
+//TODO: DESAFIO 100% coverage: repository -> https://github.com/alura-cursos/react-native-criando-testes-para-sua-aplicacao/tree/DesafioCoverage
 import React from 'react';
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR';
