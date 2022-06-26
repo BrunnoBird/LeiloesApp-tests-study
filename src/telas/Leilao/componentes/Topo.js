@@ -17,12 +17,12 @@ export default function Topo({ nome, descricao, lances, valorInicial, cor, icone
       <View style={estilos.resumo}>
         <View style={estilos.melhorLance}>
           <Text style={estilos.legendaLance}>Melhor Lance</Text>
-          <Text style={estilos.valorLance}>{formataDecimalParaReal(maiorLance)}</Text>
+          <Text style={estilos.valorLance} testID='Melhor Lance' accessibilityHint="Melhor Lance">{formataDecimalParaReal(maiorLance)}</Text>
         </View>
         <View style={estilos.divisor} />
         <View style={estilos.lanceInicial}>
           <Text style={estilos.legendaLance}>Valor Inicial</Text>
-          <Text style={estilos.valorLance}>{formataDecimalParaReal(valorInicial)}</Text>
+          <Text style={estilos.valorLance} testID='Valor Inicial' accessibilityHint="Valor Inicial">{formataDecimalParaReal(valorInicial)}</Text>
         </View>
       </View>
     </View>
