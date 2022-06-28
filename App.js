@@ -9,12 +9,12 @@ export default function App() {
   return (
     <SafeAreaView style={estilos.container}>
       <StatusBar />
-      <KeyboardAvoidingView 
+      {/* <KeyboardAvoidingView 
         style={estilos.teclado}
         keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 45}
         behavior={Platform.OS === "ios" ? "padding" : "height"}>
+      </KeyboardAvoidingView> */}
         <AppRotas />
-      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
